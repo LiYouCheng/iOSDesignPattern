@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BBAAB51EFA43BC00AB7DC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAAB41EFA43BC00AB7DC1 /* main.m */; };
+		04BBAAB81EFA43BC00AB7DC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAAB71EFA43BC00AB7DC1 /* AppDelegate.m */; };
+		04BBAABB1EFA43BC00AB7DC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAABA1EFA43BC00AB7DC1 /* ViewController.m */; };
+		04BBAABE1EFA43BD00AB7DC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BBAABC1EFA43BD00AB7DC1 /* Main.storyboard */; };
+		04BBAAC11EFA43BD00AB7DC1 /* LYCStrategyPattern.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAABF1EFA43BD00AB7DC1 /* LYCStrategyPattern.xcdatamodeld */; };
+		04BBAAC31EFA43BD00AB7DC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BBAAC21EFA43BD00AB7DC1 /* Assets.xcassets */; };
+		04BBAAC61EFA43BD00AB7DC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BBAAC41EFA43BD00AB7DC1 /* LaunchScreen.storyboard */; };
+		04BBAAD11EFA43BD00AB7DC1 /* LYCStrategyPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAAD01EFA43BD00AB7DC1 /* LYCStrategyPatternTests.m */; };
+		04BBAADC1EFA43BD00AB7DC1 /* LYCStrategyPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAADB1EFA43BD00AB7DC1 /* LYCStrategyPatternUITests.m */; };
+		04BBAAEB1EFA43F900AB7DC1 /* LYCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAAEA1EFA43F900AB7DC1 /* LYCTextField.m */; };
+		04BBAAEE1EFA444E00AB7DC1 /* LYCInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAAED1EFA444E00AB7DC1 /* LYCInputValidator.m */; };
+		04BBAAF21EFA465E00AB7DC1 /* LYCPassWordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAAF11EFA465E00AB7DC1 /* LYCPassWordValidator.m */; };
+		04BBAAF51EFA467000AB7DC1 /* LYCPhoneNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAAF41EFA467000AB7DC1 /* LYCPhoneNumberValidator.m */; };
+		04BBAAF81EFA477700AB7DC1 /* NSObject+LYCValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAAF71EFA477700AB7DC1 /* NSObject+LYCValidator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BBAACD1EFA43BD00AB7DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BBAAA81EFA43BC00AB7DC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BBAAAF1EFA43BC00AB7DC1;
+			remoteInfo = LYCStrategyPattern;
+		};
+		04BBAAD81EFA43BD00AB7DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BBAAA81EFA43BC00AB7DC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BBAAAF1EFA43BC00AB7DC1;
+			remoteInfo = LYCStrategyPattern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BBAAB01EFA43BC00AB7DC1 /* LYCStrategyPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYCStrategyPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BBAAB41EFA43BC00AB7DC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BBAAB61EFA43BC00AB7DC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BBAAB71EFA43BC00AB7DC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BBAAB91EFA43BC00AB7DC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04BBAABA1EFA43BC00AB7DC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04BBAABD1EFA43BD00AB7DC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BBAAC01EFA43BD00AB7DC1 /* LYCStrategyPattern.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LYCStrategyPattern.xcdatamodel; sourceTree = "<group>"; };
+		04BBAAC21EFA43BD00AB7DC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BBAAC51EFA43BD00AB7DC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BBAAC71EFA43BD00AB7DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BBAACC1EFA43BD00AB7DC1 /* LYCStrategyPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYCStrategyPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BBAAD01EFA43BD00AB7DC1 /* LYCStrategyPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCStrategyPatternTests.m; sourceTree = "<group>"; };
+		04BBAAD21EFA43BD00AB7DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BBAAD71EFA43BD00AB7DC1 /* LYCStrategyPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYCStrategyPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BBAADB1EFA43BD00AB7DC1 /* LYCStrategyPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCStrategyPatternUITests.m; sourceTree = "<group>"; };
+		04BBAADD1EFA43BD00AB7DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BBAAE91EFA43F900AB7DC1 /* LYCTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCTextField.h; sourceTree = "<group>"; };
+		04BBAAEA1EFA43F900AB7DC1 /* LYCTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCTextField.m; sourceTree = "<group>"; };
+		04BBAAEC1EFA444E00AB7DC1 /* LYCInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCInputValidator.h; sourceTree = "<group>"; };
+		04BBAAED1EFA444E00AB7DC1 /* LYCInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCInputValidator.m; sourceTree = "<group>"; };
+		04BBAAF01EFA465E00AB7DC1 /* LYCPassWordValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCPassWordValidator.h; sourceTree = "<group>"; };
+		04BBAAF11EFA465E00AB7DC1 /* LYCPassWordValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCPassWordValidator.m; sourceTree = "<group>"; };
+		04BBAAF31EFA466F00AB7DC1 /* LYCPhoneNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCPhoneNumberValidator.h; sourceTree = "<group>"; };
+		04BBAAF41EFA467000AB7DC1 /* LYCPhoneNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCPhoneNumberValidator.m; sourceTree = "<group>"; };
+		04BBAAF61EFA477700AB7DC1 /* NSObject+LYCValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYCValidator.h"; sourceTree = "<group>"; };
+		04BBAAF71EFA477700AB7DC1 /* NSObject+LYCValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYCValidator.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BBAAAD1EFA43BC00AB7DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BBAAC91EFA43BD00AB7DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BBAAD41EFA43BD00AB7DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BBAAA71EFA43BC00AB7DC1 = {
+			isa = PBXGroup;
+			children = (
+				04BBAAB21EFA43BC00AB7DC1 /* LYCStrategyPattern */,
+				04BBAACF1EFA43BD00AB7DC1 /* LYCStrategyPatternTests */,
+				04BBAADA1EFA43BD00AB7DC1 /* LYCStrategyPatternUITests */,
+				04BBAAB11EFA43BC00AB7DC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BBAAB11EFA43BC00AB7DC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BBAAB01EFA43BC00AB7DC1 /* LYCStrategyPattern.app */,
+				04BBAACC1EFA43BD00AB7DC1 /* LYCStrategyPatternTests.xctest */,
+				04BBAAD71EFA43BD00AB7DC1 /* LYCStrategyPatternUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BBAAB21EFA43BC00AB7DC1 /* LYCStrategyPattern */ = {
+			isa = PBXGroup;
+			children = (
+				04BBAAB61EFA43BC00AB7DC1 /* AppDelegate.h */,
+				04BBAAB71EFA43BC00AB7DC1 /* AppDelegate.m */,
+				04BBAAB91EFA43BC00AB7DC1 /* ViewController.h */,
+				04BBAABA1EFA43BC00AB7DC1 /* ViewController.m */,
+				04BBAAEF1EFA445300AB7DC1 /* InputValidator */,
+				04BBAAE91EFA43F900AB7DC1 /* LYCTextField.h */,
+				04BBAAEA1EFA43F900AB7DC1 /* LYCTextField.m */,
+				04BBAAF61EFA477700AB7DC1 /* NSObject+LYCValidator.h */,
+				04BBAAF71EFA477700AB7DC1 /* NSObject+LYCValidator.m */,
+				04BBAABC1EFA43BD00AB7DC1 /* Main.storyboard */,
+				04BBAAC21EFA43BD00AB7DC1 /* Assets.xcassets */,
+				04BBAAC41EFA43BD00AB7DC1 /* LaunchScreen.storyboard */,
+				04BBAAC71EFA43BD00AB7DC1 /* Info.plist */,
+				04BBAABF1EFA43BD00AB7DC1 /* LYCStrategyPattern.xcdatamodeld */,
+				04BBAAB31EFA43BC00AB7DC1 /* Supporting Files */,
+			);
+			path = LYCStrategyPattern;
+			sourceTree = "<group>";
+		};
+		04BBAAB31EFA43BC00AB7DC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BBAAB41EFA43BC00AB7DC1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BBAACF1EFA43BD00AB7DC1 /* LYCStrategyPatternTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BBAAD01EFA43BD00AB7DC1 /* LYCStrategyPatternTests.m */,
+				04BBAAD21EFA43BD00AB7DC1 /* Info.plist */,
+			);
+			path = LYCStrategyPatternTests;
+			sourceTree = "<group>";
+		};
+		04BBAADA1EFA43BD00AB7DC1 /* LYCStrategyPatternUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04BBAADB1EFA43BD00AB7DC1 /* LYCStrategyPatternUITests.m */,
+				04BBAADD1EFA43BD00AB7DC1 /* Info.plist */,
+			);
+			path = LYCStrategyPatternUITests;
+			sourceTree = "<group>";
+		};
+		04BBAAEF1EFA445300AB7DC1 /* InputValidator */ = {
+			isa = PBXGroup;
+			children = (
+				04BBAAEC1EFA444E00AB7DC1 /* LYCInputValidator.h */,
+				04BBAAED1EFA444E00AB7DC1 /* LYCInputValidator.m */,
+				04BBAAF01EFA465E00AB7DC1 /* LYCPassWordValidator.h */,
+				04BBAAF11EFA465E00AB7DC1 /* LYCPassWordValidator.m */,
+				04BBAAF31EFA466F00AB7DC1 /* LYCPhoneNumberValidator.h */,
+				04BBAAF41EFA467000AB7DC1 /* LYCPhoneNumberValidator.m */,
+			);
+			name = InputValidator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BBAAAF1EFA43BC00AB7DC1 /* LYCStrategyPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BBAAE01EFA43BD00AB7DC1 /* Build configuration list for PBXNativeTarget "LYCStrategyPattern" */;
+			buildPhases = (
+				04BBAAAC1EFA43BC00AB7DC1 /* Sources */,
+				04BBAAAD1EFA43BC00AB7DC1 /* Frameworks */,
+				04BBAAAE1EFA43BC00AB7DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYCStrategyPattern;
+			productName = LYCStrategyPattern;
+			productReference = 04BBAAB01EFA43BC00AB7DC1 /* LYCStrategyPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BBAACB1EFA43BD00AB7DC1 /* LYCStrategyPatternTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BBAAE31EFA43BD00AB7DC1 /* Build configuration list for PBXNativeTarget "LYCStrategyPatternTests" */;
+			buildPhases = (
+				04BBAAC81EFA43BD00AB7DC1 /* Sources */,
+				04BBAAC91EFA43BD00AB7DC1 /* Frameworks */,
+				04BBAACA1EFA43BD00AB7DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BBAACE1EFA43BD00AB7DC1 /* PBXTargetDependency */,
+			);
+			name = LYCStrategyPatternTests;
+			productName = LYCStrategyPatternTests;
+			productReference = 04BBAACC1EFA43BD00AB7DC1 /* LYCStrategyPatternTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04BBAAD61EFA43BD00AB7DC1 /* LYCStrategyPatternUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BBAAE61EFA43BD00AB7DC1 /* Build configuration list for PBXNativeTarget "LYCStrategyPatternUITests" */;
+			buildPhases = (
+				04BBAAD31EFA43BD00AB7DC1 /* Sources */,
+				04BBAAD41EFA43BD00AB7DC1 /* Frameworks */,
+				04BBAAD51EFA43BD00AB7DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BBAAD91EFA43BD00AB7DC1 /* PBXTargetDependency */,
+			);
+			name = LYCStrategyPatternUITests;
+			productName = LYCStrategyPatternUITests;
+			productReference = 04BBAAD71EFA43BD00AB7DC1 /* LYCStrategyPatternUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BBAAA81EFA43BC00AB7DC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LYC;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = liyoucheng;
+				TargetAttributes = {
+					04BBAAAF1EFA43BC00AB7DC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7LPWK7MV6D;
+						ProvisioningStyle = Manual;
+					};
+					04BBAACB1EFA43BD00AB7DC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7LPWK7MV6D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04BBAAAF1EFA43BC00AB7DC1;
+					};
+					04BBAAD61EFA43BD00AB7DC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7LPWK7MV6D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04BBAAAF1EFA43BC00AB7DC1;
+					};
+				};
+			};
+			buildConfigurationList = 04BBAAAB1EFA43BC00AB7DC1 /* Build configuration list for PBXProject "LYCStrategyPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BBAAA71EFA43BC00AB7DC1;
+			productRefGroup = 04BBAAB11EFA43BC00AB7DC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BBAAAF1EFA43BC00AB7DC1 /* LYCStrategyPattern */,
+				04BBAACB1EFA43BD00AB7DC1 /* LYCStrategyPatternTests */,
+				04BBAAD61EFA43BD00AB7DC1 /* LYCStrategyPatternUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BBAAAE1EFA43BC00AB7DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BBAAC61EFA43BD00AB7DC1 /* LaunchScreen.storyboard in Resources */,
+				04BBAAC31EFA43BD00AB7DC1 /* Assets.xcassets in Resources */,
+				04BBAABE1EFA43BD00AB7DC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BBAACA1EFA43BD00AB7DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BBAAD51EFA43BD00AB7DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BBAAAC1EFA43BC00AB7DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BBAAC11EFA43BD00AB7DC1 /* LYCStrategyPattern.xcdatamodeld in Sources */,
+				04BBAAF21EFA465E00AB7DC1 /* LYCPassWordValidator.m in Sources */,
+				04BBAABB1EFA43BC00AB7DC1 /* ViewController.m in Sources */,
+				04BBAAEB1EFA43F900AB7DC1 /* LYCTextField.m in Sources */,
+				04BBAAB81EFA43BC00AB7DC1 /* AppDelegate.m in Sources */,
+				04BBAAF51EFA467000AB7DC1 /* LYCPhoneNumberValidator.m in Sources */,
+				04BBAAF81EFA477700AB7DC1 /* NSObject+LYCValidator.m in Sources */,
+				04BBAAEE1EFA444E00AB7DC1 /* LYCInputValidator.m in Sources */,
+				04BBAAB51EFA43BC00AB7DC1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BBAAC81EFA43BD00AB7DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BBAAD11EFA43BD00AB7DC1 /* LYCStrategyPatternTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BBAAD31EFA43BD00AB7DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BBAADC1EFA43BD00AB7DC1 /* LYCStrategyPatternUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BBAACE1EFA43BD00AB7DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BBAAAF1EFA43BC00AB7DC1 /* LYCStrategyPattern */;
+			targetProxy = 04BBAACD1EFA43BD00AB7DC1 /* PBXContainerItemProxy */;
+		};
+		04BBAAD91EFA43BD00AB7DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BBAAAF1EFA43BC00AB7DC1 /* LYCStrategyPattern */;
+			targetProxy = 04BBAAD81EFA43BD00AB7DC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BBAABC1EFA43BD00AB7DC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BBAABD1EFA43BD00AB7DC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04BBAAC41EFA43BD00AB7DC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BBAAC51EFA43BD00AB7DC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BBAADE1EFA43BD00AB7DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04BBAADF1EFA43BD00AB7DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BBAAE11EFA43BD00AB7DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7LPWK7MV6D;
+				INFOPLIST_FILE = LYCStrategyPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.LYCStrategyPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "513961e0-72b3-4a1e-bb27-f9e3bc163c9b";
+				PROVISIONING_PROFILE_SPECIFIER = XcodeTest;
+			};
+			name = Debug;
+		};
+		04BBAAE21EFA43BD00AB7DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LYCStrategyPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.LYCStrategyPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		04BBAAE41EFA43BD00AB7DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7LPWK7MV6D;
+				INFOPLIST_FILE = LYCStrategyPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.LYCStrategyPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYCStrategyPattern.app/LYCStrategyPattern";
+			};
+			name = Debug;
+		};
+		04BBAAE51EFA43BD00AB7DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7LPWK7MV6D;
+				INFOPLIST_FILE = LYCStrategyPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.LYCStrategyPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYCStrategyPattern.app/LYCStrategyPattern";
+			};
+			name = Release;
+		};
+		04BBAAE71EFA43BD00AB7DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7LPWK7MV6D;
+				INFOPLIST_FILE = LYCStrategyPatternUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.LYCStrategyPatternUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYCStrategyPattern;
+			};
+			name = Debug;
+		};
+		04BBAAE81EFA43BD00AB7DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7LPWK7MV6D;
+				INFOPLIST_FILE = LYCStrategyPatternUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.LYCStrategyPatternUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYCStrategyPattern;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BBAAAB1EFA43BC00AB7DC1 /* Build configuration list for PBXProject "LYCStrategyPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BBAADE1EFA43BD00AB7DC1 /* Debug */,
+				04BBAADF1EFA43BD00AB7DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BBAAE01EFA43BD00AB7DC1 /* Build configuration list for PBXNativeTarget "LYCStrategyPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BBAAE11EFA43BD00AB7DC1 /* Debug */,
+				04BBAAE21EFA43BD00AB7DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BBAAE31EFA43BD00AB7DC1 /* Build configuration list for PBXNativeTarget "LYCStrategyPatternTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BBAAE41EFA43BD00AB7DC1 /* Debug */,
+				04BBAAE51EFA43BD00AB7DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BBAAE61EFA43BD00AB7DC1 /* Build configuration list for PBXNativeTarget "LYCStrategyPatternUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BBAAE71EFA43BD00AB7DC1 /* Debug */,
+				04BBAAE81EFA43BD00AB7DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04BBAABF1EFA43BD00AB7DC1 /* LYCStrategyPattern.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04BBAAC01EFA43BD00AB7DC1 /* LYCStrategyPattern.xcdatamodel */,
+			);
+			currentVersion = 04BBAAC01EFA43BD00AB7DC1 /* LYCStrategyPattern.xcdatamodel */;
+			path = LYCStrategyPattern.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04BBAAA81EFA43BC00AB7DC1 /* Project object */;
+}
