@@ -74,6 +74,5 @@ iOS设计模式
 2、优先使用对象组合而不是类继承
 
 
-http://www.jianshu.com/p/09e25bea20ca
-
+相关文章：http://www.jianshu.com/p/09e25bea20ca
 
